@@ -1,8 +1,31 @@
-# React + Vite
+This is a responsive image gallery built with React JS, featuring reordering, deleting multiple images, and setting a feature image. The gallery provides a visually appealing and seamless user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
 
-Currently, two official plugins are available:
+[https://image-gallery-hh.netlify.app/](https://image-gallery-hh.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+### Gallery Layout
+
+- The image gallery uses a grid layout to display images, with one feature image larger than the others.
+
+### Sorting
+
+- You can easily reorder images by dragging and dropping them.
+- The feature image is set by sorting. The first image (from the left-to-right direction) is considered the feature image.
+
+### Deleting Multiple Images
+
+- Users can select multiple images and delete them with a simple click.
+- Selected images are visually indicated for clarity.
+
+### User Experience
+
+- The gallery provides a smooth and responsive user experience.
+- Transitions and animations have been added for a polished look and feel.
+
+### Technologies Used
+
+- React JS
+- Tailwind CSS

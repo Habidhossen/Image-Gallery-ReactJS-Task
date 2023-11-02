@@ -66,7 +66,7 @@ const ImageGallery = () => {
 
   return (
     <div>
-      <div className="mx-6 md:mx-8 lg:mx-24">
+      <div className="mx-6 md:mx-8 lg:mx-24 mb-12">
         {/* header */}
         <div className="flex items-center justify-between py-6 border-b mb-6">
           <div className="flex items-center gap-2">
